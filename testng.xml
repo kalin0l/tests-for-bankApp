@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/user/Desktop/QA/Selenium/BankApp">
+    <classes/>
+    </test>
+    <test verbose="2" preserve-order="true" name="C:/Users/user/Desktop/QA/Selenium/BankApp/src/main/java/Deposit.java">
+        <classes>
+            <class name="Deposit"></class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="C:/Users/user/Desktop/QA/Selenium/BankApp/src/main/java/ChangePassword.java">
+        <classes>
+            <class name="ChangePassword"></class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="C:/Users/user/Desktop/QA/Selenium/BankApp/src/main/java/Login.java">
+    <classes>
+        <class name="Login"></class>
+    </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="C:/Users/user/Desktop/QA/Selenium/BankApp/src/main/java/Registration.java">
+    <classes>
+        <class name="Registration"></class>
+    </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="C:/Users/user/Desktop/QA/Selenium/BankApp/src/main/java/Withdraw.java">
+        <classes>
+            <class name="Withdraw"></class>
+        </classes>
+    </test>
+</suite>
