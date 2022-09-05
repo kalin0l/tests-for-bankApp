@@ -44,6 +44,7 @@ public class Login extends Hooks {
         Thread.sleep(2000);
         login.getEmail().sendKeys(email);
         login.getPass().sendKeys(password);
+        Thread.sleep(3000);
         login.getLoginFormBtn().click();
         Thread.sleep(3000);
 

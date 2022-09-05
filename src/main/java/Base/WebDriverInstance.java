@@ -27,8 +27,8 @@ public class WebDriverInstance {
         Properties prop = new Properties();
         FileInputStream data = new FileInputStream("C:\\Users\\user\\Desktop\\QA\\Selenium\\BankApp\\src\\main\\java\\resources\\config.properties");
         prop.load(data);
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\user\\Desktop\\QA\\chromeDriver\\chromedriver.exe");
-        WebDriver driver = driver = new ChromeDriver();
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\user\\Desktop\\QA\\Selenium\\BankApp\\src\\main\\java\\drivers\\chromedriver.exe");
+        WebDriver driver =  new ChromeDriver();
         driver.manage().window().maximize();
 
         return driver;
